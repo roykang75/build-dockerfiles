@@ -39,6 +39,7 @@ RUN    apt-get -y install ccache
 RUN    apt-get -y install lib32z-dev
 RUN    apt-get -y install libgl1-mesa-dev
 RUN    apt-get -y install lzop
+RUN    apt-get -y install python-networkx
 #RUN    apt-get -y install net-tools
 
 #CREATE USER
